@@ -21,8 +21,5 @@
 
         <button type="submit">登録</button>
     </form>
-    <?php
-    echo "テスト！！";
-    ?>
 </body>
 </html>
