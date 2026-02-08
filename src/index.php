@@ -33,6 +33,7 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <td><?= $product['name']; ?></td>
                 <td><?= $product['quantity']; ?></td>
                 <td><a href="edit.php?id=<?= $product['id']; ?>">編集</a></td>
+                <td><a href="delete.php?id=<?= $product['id']; ?>">削除</a></td>
             </tr>
         <?php endforeach; ?>    
     </table>
